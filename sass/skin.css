@@ -1,4 +1,7 @@
-h1 {
-  color: #3A34f4; }
+body {
+  background-color: lightpink; }
+
+.splash-text {
+  margin: 0 auto; }
 
 /*# sourceMappingURL=skin.css.map */

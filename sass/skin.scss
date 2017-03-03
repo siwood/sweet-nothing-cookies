@@ -1,4 +1,9 @@
+$primary-background: lightpink;
 
-h1 {
-  color: #3A34f4;
+body {
+  background-color: $primary-background;
+}
+
+.splash-text {
+  margin: 0 auto;
 }
