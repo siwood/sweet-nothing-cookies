@@ -2,6 +2,7 @@ body {
   background-color: lightpink; }
 
 .splash-text {
-  margin: 0 auto; }
+  margin-top: 13%;
+  text-align: center; }
 
 /*# sourceMappingURL=skin.css.map */
