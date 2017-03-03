@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,EAAG;EACD,KAAK,EAAE,OAAO",
+"sources": ["skin.scss"],
+"names": [],
+"file": "skin.css"
+}

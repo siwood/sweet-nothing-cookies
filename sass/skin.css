@@ -1,9 +1,4 @@
----
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
----
-
 h1 {
-  margin: 0 auto;
-  background-color: lightpink;
-}
+  color: #3A34f4; }
+
+/*# sourceMappingURL=skin.css.map */
