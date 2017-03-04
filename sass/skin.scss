@@ -1,7 +1,10 @@
 $primary-background: lightpink;
+$font-stack: 'Abel', sans-serif;
+
 
 body {
   background-color: $primary-background;
+  font: $font-stack;
 }
 
 .splash-text {
