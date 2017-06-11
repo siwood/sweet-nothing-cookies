@@ -1,2 +1,8 @@
 # This allows you to redirect your entire website to any other domain
-Redirect 301 http://sweetnothingcookies.com/ http://sweetnothings.info/
+# Redirect 301 http://sweetnothingcookies.com/ http://sweetnothings.info/
+
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sweetnothingcookies.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.sweetnothingcookies.com [NC]
+RewriteRule ^(.*)$ http://sweetnothings.info/$1 [L,R=301,NC]
